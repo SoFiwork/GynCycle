@@ -1,4 +1,4 @@
-# GynCycle (s. Fischer et al. 2021) 
+# GynCycle (S. Fischer et al. 2021) 
 Expansion of GynCycle (Röbitz et al. (2013)) with follicular growth mechanism from Lange et al. (2019)
 Modeldiscription and simulation resuls will be published 
 
