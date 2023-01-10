@@ -1,6 +1,67 @@
-# GynCycle (S. Fischer et al. 2021) 
+# Menstrual Cycle model published by Fischer-Holzhausen et al. 2022 (https://doi.org/10.1016/j.jtbi.2022.111150)
+
+## Description 
+Mathematical model of the female menstrual cycle that couples the dynamics between follicles and hormones.
 Expansion of GynCycle (Röbitz et al. (2013)) with follicular growth mechanism from Lange et al. (2019)
-Modeldiscription and simulation resuls will be published 
+
+![Alt text](https://github.com/SoFiwork/GynCycle_newVersion/blob/main/Flowchart.jpg)
+
+## Installation
+The model is written in MATLAB - no additional package installations are necessary.
+
+To use this GynCycle version, please clone the repository:
+
+```
+git clone https://github.com/SoFiwork/GynCycle
+```
+
+## Usage
+
+run HumanSimulationFollGrowth.m to start a simulation
+-needed: 'Parameter.dat', 'InitialValues.txt'
+-set specifications for simulation 
+  -ShowStuff = 1: show plots
+  -runnumb: set number of simulation runs
+  -SaveStuff = 1: save data as CSV 
+  -DirStuff : choose directory for CSV
+  -simulation options
+    -NorCycle = 1: run without drug treatment
+
+## Authors
+Sophie Fischer-Holzhausen
+Susanna Röblitz
+
+## License
+This model is licensed under the MIT License.
+
+## Citation
+
+@article{fischer2022hormonal,
+  title={Hormonal regulation of ovarian follicle growth in humans: Model-based exploration of cycle variability and parameter sensitivities},
+  author={Fischer-Holzhausen, Sophie and R{\"o}blitz, Susanna},
+  journal={Journal of Theoretical Biology},
+  pages={111150},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{fischer2021mathematical,
+  title={Mathematical modeling and simulation provides evidence for new strategies of ovarian stimulation},
+  author={Fischer, Sophie and Ehrig, Rainald and Sch{\"a}fer, Stefan and Tronci, Enrico and Mancini, Toni and Egli, Marcel and Ille, Fabian and Kr{\"u}ger, Tillmann HC and Leeners, Brigitte and R{\"o}blitz, Susanna},
+  journal={Frontiers in endocrinology},
+  volume={12},
+  pages={613048},
+  year={2021},
+  publisher={Frontiers Media SA}
+}
+
+
+
+
+
+
+
+
 
 
 ODE model of the female menstrual cycle
